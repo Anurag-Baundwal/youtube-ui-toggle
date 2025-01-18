@@ -1,7 +1,9 @@
 let uiHidden = false; // Keep track of the UI state
 
 function toggleUI() {
-  const uiElements = document.querySelectorAll('.ytp-chrome-bottom, .ytp-chrome-top');
+  const uiElements = document.querySelectorAll(
+    ".ytp-chrome-bottom, .ytp-chrome-top, .ytp-gradient-top, .ytp-gradient-bottom"
+  );
   if (uiElements.length === 0) return;
   uiElements.forEach(element => {
     element.style.visibility = uiHidden ? 'visible' : 'hidden';
