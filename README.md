@@ -4,27 +4,27 @@ This is a simple Firefox extension that allows you to toggle (hide/show) the You
 
 ## Features
 
-*   **Toggle YouTube UI:** Hide or show the video title, progress bar, and other controls on the YouTube video player.
-*   **Keyboard Shortcut:** Use `Ctrl+Q` to toggle the UI.
-*   **Lightweight:** The extension is very small and has minimal impact on performance.
+*   Toggles the visibility of the YouTube player controls (top and bottom bars).
+*   **NEW in 1.1:** Hides the gradient overlays at the top and bottom of the video player for clearer screenshots.
+*   Uses the suggested shortcut Ctrl+Q (configurable in Firefox's extension settings).
 
 ## Installation
 
-1. Clone this repository.
-2. Open Firefox and go to `about:debugging`.
-3. Click "This Firefox" on the left.
-4. Click "Load Temporary Add-on...".
-5. Select the `manifest.json` file from the cloned repository.
+1. Clone this repository: `git clone https://github.com/Anurag-Baundwal/youtube-ui-toggle`
+2. Open Firefox and go to `about:debugging`
+3. Click "This Firefox"
+4. Click "Load Temporary Add-on..."
+5. Select the `manifest.json` file in the cloned repository.
 
 ## Usage
 
-1. Open any YouTube video.
-2. Press `Ctrl+Q` to hide the UI controls.
-3. Press `Ctrl+Q` again to show the UI controls.
+1. Go to any YouTube video.
+2. Press **Ctrl+Q** to hide the UI elements.
+3. Press **Ctrl+Q** again to show the UI elements.
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+Contributions are welcome! Please feel free to submit issues or pull requests.
 
 ## License
 
